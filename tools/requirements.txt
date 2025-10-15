@@ -1,0 +1,4 @@
+chardet==5.2.0
+unicodedata2==15.1.0
+
+

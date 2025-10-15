@@ -1,0 +1,27 @@
+# Common backup and artifact filenames
+backup.zip
+backup.tar
+backup.tar.gz
+db.sql
+dump.sql
+database.sql
+export.sql
+site.zip
+source.zip
+src.zip
+www.zip
+website.zip
+config.bak
+config.old
+config.php.bak
+wp-config.php.bak
+.env.bak
+.env.backup
+keys.txt
+secrets.txt
+id_rsa
+id_rsa.bak
+credentials.csv
+passwords.txt
+
+

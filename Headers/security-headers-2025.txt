@@ -1,0 +1,16 @@
+# Security headers references
+Content-Security-Policy
+X-Content-Type-Options
+X-Frame-Options
+Referrer-Policy
+Permissions-Policy
+Cross-Origin-Resource-Policy
+Cross-Origin-Opener-Policy
+Cross-Origin-Embedder-Policy
+Strict-Transport-Security
+Expect-CT
+Report-To
+NEL
+X-XSS-Protection
+
+

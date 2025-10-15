@@ -1,0 +1,10 @@
+..\..\..\..\..\..\windows\win.ini
+..%5c..%5c..%5c..%5c..%5cwindows%5cwin.ini
+..\..\..\..\..\..\windows\system.ini
+..%5c..%5c..%5c..%5c..%5cwindows%5csystem.ini
+..\..\..\..\..\..\windows\system32\drivers\etc\hosts
+..%5c..%5c..%5c..%5c..%5cwindows%5csystem32%5cdrivers%5cetc%5chosts
+C:\Windows\win.ini
+C:\Windows\System32\drivers\etc\hosts
+
+

@@ -1,0 +1,12 @@
+# Default owners
+* @0ff-set
+
+# Directories
+/Passwords/ @0ff-set
+/Discovery/ @0ff-set
+/Fuzzing/ @0ff-set
+/Crawling/ @0ff-set
+/Headers/ @0ff-set
+/tools/ @0ff-set
+/api/ @0ff-set
+/sandbox/ @0ff-set

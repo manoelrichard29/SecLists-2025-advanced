@@ -1,0 +1,15 @@
+# Open redirect probes
+//example.com
+///example.com
+https://example.com
+http://example.com
+//127.0.0.1
+//[::1]
+//localhost
+//%2f%2fexample.com
+/%2f%2fexample.com
+/\example.com
+%5cexample.com
+//evil.com/%2f/legit.com
+
+

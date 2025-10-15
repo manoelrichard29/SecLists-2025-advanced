@@ -1,0 +1,28 @@
+# GraphQL discovery queries and routes (safe, read-only)
+# Endpoints to probe
+/graphql
+/graphiql
+/graph
+/api/graphql
+/v1/graphql
+/v2/graphql
+/playground
+
+# Introspection queries (minimal and full)
+query{__schema{queryType{name}mutationType{name}subscriptionType{name}}}
+{__schema{types{name}}}
+{__schema{types{name,fields{name,args{name}}}}}
+
+# Common field names
+{me{id email}}
+{viewer{id login}}
+{user(id:1){id name email}}
+{users{id name}}
+{node(id:"1"){id}}
+
+# Common mutations
+mutation{login(email:"a@b.c",password:"x"){token}}
+mutation{authenticate(username:"u",password:"p"){jwt}}
+mutation{refreshToken(token:"x"){token}}
+
+

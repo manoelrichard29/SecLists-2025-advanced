@@ -1,0 +1,18 @@
+# Common sitemap locations for crawling
+/sitemap.xml
+/sitemap_index.xml
+/sitemap-index.xml
+/sitemap1.xml
+/sitemap-news.xml
+/sitemap-images.xml
+/sitemap-video.xml
+/sitemaps.xml
+/sitemap.xml.gz
+/sitemap_index.xml.gz
+/sitemap-index.xml.gz
+/sitemap.txt
+/sitemap.json
+/sitemap
+/robots.txt
+
+

